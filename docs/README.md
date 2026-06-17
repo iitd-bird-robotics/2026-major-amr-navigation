@@ -8,10 +8,10 @@ Contains supplementary technical documentation for the Autonomous Mobile Robot N
 
 | Document | Description |
 |----------|-------------|
-| [parameter_tuning_guide.md] | Detailed guide for tuning AMCL, TEB, costmap, and velocity smoother parameters |
-| [multi_map_architecture.md] | Technical deep-dive into the multi-map navigation architecture and coordinate transform derivation |
-| [iso_compliance_summary.md] | Summary of ISO 3691-4:2020 compliance test results |
-| [troubleshooting.md]        | Known issues and debugging guide |
+| [parameter_tuning_guide] | Detailed guide for tuning AMCL, TEB, costmap, and velocity smoother parameters |
+| [multi_map_architecture] | Technical deep-dive into the multi-map navigation architecture and coordinate transform derivation |
+| [iso_compliance_summary] | Summary of ISO 3691-4:2020 compliance test results |
+| [troubleshooting]        | Known issues and debugging guide |
 
 ---
 
