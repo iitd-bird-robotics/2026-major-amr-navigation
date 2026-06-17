@@ -146,7 +146,8 @@ rosrun map_server map_saver -f my_map
 ### Single-Map Navigation
 
 ```bash
-# Terminal 1: source devel/setup.bash
+# Terminal 1:
+source devel/setup.bash
 roslaunch robot_navigation navigation_amcl.launch
 
 ```
@@ -157,6 +158,7 @@ roslaunch robot_navigation navigation_amcl.launch
 # For Multi-Map Navigation
 
 # Terminal 1: Map manager
+source devel/setup.bash
 roslaunch robot_navigation multi_map_navigation.launch
 ```
 
