@@ -78,12 +78,6 @@ The Novus AMR 500 is a differential-drive commercial AGV platform. No custom mec
 
 ---
 
-## Results
-
-<p align="center">
-  <img src="media/images/system_overview.png" width="750"/>
-</p>
-
 ### ISO 3691-4:2020 Compliance — All 8 Tests Passed ✅
 
 | Test ID  | Test Name                            | Result  | Key Metric Achieved               |
@@ -137,7 +131,9 @@ sudo apt install ros-noetic-navigation ros-noetic-teb-local-planner \
 
 ```bash
 cd ~/catkin_ws/src
-git clone <this-repo-url>
+git clone cd ~/MTP2/abc
+
+git clone https://github.com/p1608a/robot_navigation.git
 cd ..
 catkin_make
 source devel/setup.bash
