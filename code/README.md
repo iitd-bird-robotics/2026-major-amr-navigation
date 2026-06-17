@@ -187,7 +187,3 @@ pip3 install numpy scipy shapely
 ```
 
 ---
-
-## Parameter Tuning Guide
-
-See [`docs/parameter_tuning_guide.md`](../docs/parameter_tuning_guide.md) for detailed explanation of all tunable parameters and their effect on navigation performance.
