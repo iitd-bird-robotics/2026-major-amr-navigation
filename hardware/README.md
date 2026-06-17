@@ -11,7 +11,7 @@ Contains hardware specifications, sensor mounting details, and system integratio
 | Type               | Differential-drive AMR             |
 | Dimensions (L×W×H) | 1.17 m × 0.75 m × 0.425 m         |
 | Payload Capacity   | 500 kg                             |
-| Max Speed          | 1.5 m/s                            |
+| Max Speed          | 1.25 m/s                            |
 | Operating Speed    | 0.5 m/s (configured for safety)    |
 | Battery            | 48V Li-ion, 8-hour runtime         |
 | Communication      | ROS over Ethernet                  |
@@ -32,9 +32,9 @@ Contains hardware specifications, sensor mounting details, and system integratio
 | Rotation Rate      | 10 Hz                         |
 | Points/Revolution  | ~300,000                      |
 | Mount Height       | 0.425 m (robot top surface)   |
-| Interface          | Ethernet (UDP), ROS driver: `velodyne_driver` |
+| Interface          | Ethernet (UDP)                |
 
-### Intel RealSense D435i Depth Camera
+### Intel RealSense D435 Depth Camera
 
 | Parameter          | Value                         |
 |--------------------|-------------------------------|
@@ -43,33 +43,7 @@ Contains hardware specifications, sensor mounting details, and system integratio
 | Depth FOV (H×V)    | 87° × 58°                     |
 | Depth Resolution   | 848 × 480 @ 30 fps            |
 | RGB Resolution     | 1920 × 1080 @ 30 fps          |
-| IMU                | BMI055 (6-DOF)                |
-| Mount Position     | Front-face, 0.30 m height     |
 | Interface          | USB 3.1, ROS driver: `realsense2_camera` |
-
-### Onboard IMU
-
-| Parameter          | Value                         |
-|--------------------|-------------------------------|
-| Type               | 6-DOF (3-axis accel + gyro)  |
-| Update Rate        | 100 Hz                        |
-| Integration        | `/imu/data` ROS topic         |
-
----
-
-## Sensor Mounting
-
-```
-Top View (Novus AMR 500):
-
-         ┌──────────────────────┐
-         │                      │
-         │   [VLP-16 LiDAR]    │  ← Center-top mount (0.425 m)
-         │                      │
-FRONT →  │  [RealSense D435i]  │  ← Front face mount (0.30 m)
-         │                      │
-         └──────────────────────┘
-```
 
 ---
 
@@ -95,17 +69,6 @@ FRONT →  │  [RealSense D435i]  │  ← Front face mount (0.30 m)
 
 ---
 
-## Bill of Materials (Sensors Only)
-
-| Item                          | Quantity | Notes                          |
-|-------------------------------|----------|--------------------------------|
-| Velodyne VLP-16 LiDAR         | 1        | Provided by Hi-Tech Robotic Systemz |
-| Intel RealSense D435i         | 1        | Purchased separately           |
-| Mounting bracket (VLP-16)     | 1        | Custom aluminum bracket        |
-| Mounting bracket (RealSense)  | 1        | 3D-printed PLA bracket         |
-| Ethernet switch (8-port)      | 1        | For multi-device connectivity  |
-
----
 
 ## Safety Features
 
