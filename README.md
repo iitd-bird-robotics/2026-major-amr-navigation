@@ -183,7 +183,7 @@ See [`code/README.md`](code/README.md) for detailed launch instructions and para
 | Document        | Link |
 |-----------------|------|
 | Thesis / Report | [report/thesis.pdf](report/Thesis.pdf) |
-| Presentation    | [report/presentation.pdf](report/MTP2_Final.pptx) |
+| Presentation    | [report/MPT2_Final.pptx](report/MTP2_Final.pptx) |
 
 ---
 
