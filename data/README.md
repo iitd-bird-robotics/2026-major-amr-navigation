@@ -2,28 +2,6 @@
 
 Contains ISO performance test logs, navigation experiment data, and map files for the Autonomous Mobile Robot Navigation project.
 
----
-
-## Structure
-
-```text
-data/
-├── maps/                        # Pre-built occupancy grid maps
-│   ├── map01.pgm                # Zone A occupancy grid
-│   ├── map01.yaml               # Zone A map metadata
-│   ├── map02.pgm                # Zone B occupancy grid
-│   └── map02.yaml               # Zone B map metadata
-├── iso_test_logs/               # Raw ISO 3691-4 test logs
-│   ├── test01_nav_accuracy/     # TEST-01: Same-map navigation logs
-│   ├── test02_map_switching/    # TEST-02: Cross-map switching logs
-│   ├── test03_relocalization/   # TEST-03: Re-localization accuracy logs
-│   └── test08_full_mission/     # TEST-08: End-to-end mission logs
-├── navigation_logs/             # General navigation experiment logs
-└── ISO_3691-4_Test_Report.md    # Full ISO compliance test report
-```
-
----
-
 ## Maps
 
 Two pre-built 2D occupancy grid maps created using GMapping SLAM:
