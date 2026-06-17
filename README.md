@@ -183,8 +183,7 @@ See [`code/README.md`](code/README.md) for detailed launch instructions and para
 | Document        | Link |
 |-----------------|------|
 | Thesis / Report | [report/thesis.pdf](report/Thesis.pdf) |
-| Presentation    | [report/presentation.pdf](report/presentation.pdf) |
-| ISO Test Report | [data/ISO_3691-4_Test_Report.md](data/ISO_3691-4_Test_Report.md) |
+| Presentation    | [report/presentation.pdf](report/MTP2_Final.pptx) |
 
 ---
 
